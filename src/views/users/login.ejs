@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CLASE 26</title>
+</head>
+<body>
+    <h1>LOGIN</h1>
+
+    <form action="/users/login" method="post" enctype="multipart/form-data">
+  <label for=""> Ingrese su nombre
+    <input type="text" name="nombre" id="nombre" >
+
+    </label> 
+    <div>
+          <label for=""> Colores
+            <select name="color" id="color" >
+                <option value=0>Elegí</option>
+                <option value=2>Azul</option>
+                <option value=1>Amarillo</option>
+              </select>
+        </label>
+    </div>
+    <div>
+        <label for=""> Ingrese su  email
+         <input type="email" name="email" id="email">
+         </label>
+ </div>
+    <div>
+           <label for=""> Ingrese su edad
+            <input type="number" name="edad" id="edad">
+            </label>
+    </div>
+   
+     <div>
+           <label for=""> recordar color
+                <input type="checkbox" name="recordar" id="recordar">
+                </label>
+     </div>
+          
+        <div class="div-botones-register">
+            <button type="submit" class="boton-enviar">Enviar</button>
+          <button type="reset" class="boton-borrar">Borrar</button>
+        </div>
+    </form>
+  
+   
+</body>
+</html>
